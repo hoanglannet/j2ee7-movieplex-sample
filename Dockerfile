@@ -1,4 +1,4 @@
-FROM maven:3.2-jdk-7-onbuild
+FROM maven
 CMD mvn install
 
 FROM jboss/wildfly
