@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER Lan Le <hoanglannet@gmail.com>
 
 # install jdk wget maven git
-RUN apt-get install -y openjdk-7-jre-headless wget
+RUN apt-get install -y openjdk-7-jdk wget
 RUN apt-get install -y maven git
 
 # setup Wildfly
